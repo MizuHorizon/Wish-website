@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex items-center justify-between px-8 py-2 shadow-sm h-48px lg:px-16">
+    <nav className="flex items-center justify-between absolute w-full px-8 py-2 shadow-sm h-48px lg:px-16">
       <Link href={'/'} className="flex items-center justify-center">
         <Image src={Logo} alt="Void" width={100} height={100} />
       </Link>
@@ -47,7 +47,7 @@ const Navbar = () => {
       <div className={`lg:flex items-center justify-evenly gap-8 p-2 ${isMobileMenuOpen ? 'absolute top-10 flex flex-col items-start justify-start gap-5 w-44 py-5 right-4 shadow-xl z-50 rounded-lg  bg-gradient-to-b from-[#B5B5B5] to-[#B5B5B5 opacity-0]' : 'hidden'}`}>
         <Link onClick={() => setMobileMenuOpen(false)} href={"/"} className='montserrat w-full text-lg font-medium text-center text-[#B5B5B5] md:hover:text-white'>Home</Link>
         <Link onClick={() => setMobileMenuOpen(false)} href={"/Work"} className='montserrat w-full text-lg font-medium text-center text-[#B5B5B5] md:hover:text-white'>Work</Link>
-        <Link onClick={() => setMobileMenuOpen(false)} href={"/Contact"} className=" flex gap-4 px-8 py-2 font-medium montserrat text-[#B5B5B5] md:hover:text-white text-center rounded-full text-md whitespace-nowrap">
+        <Link onClick={() => setMobileMenuOpen(false)} href={"/Contact"} className="flex gap-4 px-8 py-2 font-medium montserrat text-[#B5B5B5] md:hover:text-white text-center rounded-full text-md whitespace-nowrap">
           Contact
             <Image
             src={arrow}
