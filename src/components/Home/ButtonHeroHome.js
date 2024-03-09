@@ -34,10 +34,10 @@ const ButtonHeroHome = () => {
     <motion.button
       whileTap={{ scale: 0.985 }}
       ref={btnRef}
-      className="relative w-full max-w-xs overflow-hidden rounded-lg bg-gradient-to-tr from-[#616169] to-[#B5B5B5 opacity-0] px-4 py-3 text-lg font-medium text-white"
+      className="relative w-full max-w-xs overflow-hidden rounded-lg bg-gradient-to-tr from-[#616169] to-[#B5B5B5 opacity-0] md:px-4 md:py-3 px-2 py-2 md:text-lg text-[16px] font-medium text-white"
     >
       <span className="pointer-events-none relative z-10 mix-blend-difference">
-        Contact
+        Download
       </span>
       <span
         ref={spanRef}

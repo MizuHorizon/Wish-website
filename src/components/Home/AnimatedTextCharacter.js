@@ -38,7 +38,7 @@ const AnimatedTextCharacter = ({text}) => {
 
   return (
     <motion.div
-    className="overflow-hidden leading-normal flex font-bold text-3xl lg:text-6xl text-transparent bg-clip-text bg-gradient-to-tr from-[#8B8B8B] to-[#191919]"
+    className="overflow-hidden leading-normal tracking-wider flex font-bold text-3xl md:text-5xl lg:text-6xl text-transparent bg-clip-text bg-gradient-to-tr from-[#8B8B8B] to-[#191919]"
       variants={container}
       initial="hidden"
       animate="visible"
