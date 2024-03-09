@@ -123,9 +123,9 @@
 <path d="M1229.58 685.75H1484.5V940.667H1229.58V685.75Z" fill="url(#paint23_linear_20_2)"/>
 <path d="M1484.5 940.667V942.099H1485.93V940.667H1484.5ZM1483.07 685.75V940.667H1485.93V685.75H1483.07ZM1484.5 939.235H1229.58V942.099H1484.5V939.235Z" fill="#52525B" mask="url(#path-47-inside-24_20_2)"/>
 </g>
-<g opacity="0.6">
+<g opacity="0.8">
 <g opacity="0.23" filter="url(#filter0_f_20_2)">
-<path d="M830.376 -619L1014.95 -498.459L321.571 563.228C321.571 563.228 469.376 194.407 430.333 181.105C391.29 167.802 137 442.687 137 442.687L830.376 -619Z" fill="url(#paint24_linear_20_2)"/>
+<path d="M830.376 -619L1014.95 -498.459L321.571 563.229C321.571 563.229 469.376 194.407 430.333 181.105C391.29 167.802 137 442.687 137 442.687L830.376 -619Z" fill="url(#paint24_linear_20_2)"/>
 </g>
 <g opacity="0.23" filter="url(#filter1_f_20_2)">
 <path d="M1241.44 -600.338L1437.3 -472.427L743.922 589.26C743.922 589.26 887.738 217.834 846.65 203.195C805.561 188.557 548.067 461.349 548.067 461.349L1241.44 -600.338Z" fill="url(#paint25_linear_20_2)"/>
@@ -133,7 +133,7 @@
 </g>
 </g>
 <defs>
-<filter id="filter0_f_20_2" x="-2.99988" y="-759" width="1157.95" height="1462.23" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_f_20_2" x="-2.99982" y="-759" width="1157.95" height="1462.23" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feGaussianBlur stdDeviation="70" result="effect1_foregroundBlur_20_2"/>
