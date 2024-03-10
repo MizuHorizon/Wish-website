@@ -17,12 +17,12 @@ const Video = () => {
       <Image
         src={right}
         alt="left linears"
-        className="absolute left-0 top-32"
+        className="absolute md:left-0 md:top-32"
       />
       <Image
         src={right}
         alt="left linears"
-        className="absolute right-0 top-0"
+        className="absolute md:right-0 md:top-0"
       />
     </section>
   );
