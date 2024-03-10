@@ -47,7 +47,7 @@ const Navbar = () => {
       <div
         className={`lg:flex items-center justify-evenly gap-8 p-2 ${
           isMobileMenuOpen
-            ? "absolute top-10 flex flex-col items-start justify-start gap-5 w-44 py-5 right-4 shadow-xl z-50 rounded-lg  bg-gradient-to-b from-[#B5B5B5] to-[#B5B5B5 opacity-0]"
+            ? "absolute top-10 flex flex-col items-start justify-start gap-5 w-40 py-4 right-4 shadow-xl z-50 border border-[#B5B5B5]  bg-gradient-to-b from-[#B5B5B5] to-[#B5B5B5 opacity-0.2]"
             : "hidden"
         }`}
       >

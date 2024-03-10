@@ -54,7 +54,7 @@ const Hero = () => {
         variants={variants}
         animate={cursorVariant}
       />
-      <Image src={Bg} alt="HeroBg" className="w-full h-[80%] hidden lg:block" />
+      <Image src={Bg} alt="HeroBg" className="w-full h-7/12 hidden lg:block" />
       <Image
         src={PhoneBg}
         alt="HeroBg"
