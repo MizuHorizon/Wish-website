@@ -8,6 +8,8 @@ import I2 from "../../../public/I2.svg";
 import I3 from "../../../public/I3.svg";
 import I4 from "../../../public/I4.svg";
 import I5 from "../../../public/I5.svg";
+import Void from "../../../public/void.svg";
+import Image from "next/image";
 
 const Features = () => {
   const [mousePosition, setMousePosition] = useState({
@@ -95,25 +97,34 @@ const Features = () => {
           Amazing group of features that are <br />
           easy to use.
         </h3>
-        <div className="pt-16 lg:px-24 px-16 flex justify-center items-center md:items-start gap-8 md:gap-0 lg:flex-row flex-col">
-          {cards.map((items, index) => (
-            <Card
-              key={index}
-              image={items.image}
-              title={items.title}
-              description={items.description}
+        <div className="flex flex-col relative">
+          <div className="pt-16 lg:px-24 px-4 flex justify-center items-center md:items-start gap-8 md:gap-0 lg:flex-row flex-col">
+            {cards.map((items, index) => (
+              <Card
+                key={index}
+                image={items.image}
+                title={items.title}
+                description={items.description}
+              />
+            ))}
+          </div>
+          <div className="flex pt-8 pb-16 gap-8 md:gap-0 lg:flex-row md:items-start flex-col px-4 lg:px-8 items-center justify-center">
+            {cards2.map((item, index) => (
+              <Card2
+                key={index}
+                title={item.title}
+                description={item.description}
+                image={item.image}
+              />
+            ))}
+          </div>
+          <div>
+            <Image
+              src={Void}
+              alt="voidIllustration"
+              className="absolute lg:top-[70%] top-[90%] lg:px-20"
             />
-          ))}
-        </div>
-        <div className="flex pt-8 pb-16 gap-8 md:gap-0 lg:flex-row md:items-start flex-col px-16 lg:px-8 items-center justify-center">
-          {cards2.map((item, index) => (
-            <Card2
-              key={index}
-              title={item.title}
-              description={item.description}
-              image={item.image}
-            />
-          ))}
+          </div>
         </div>
       </div>
     </section>
