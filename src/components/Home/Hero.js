@@ -48,7 +48,7 @@ const Hero = () => {
   const textLeave = () => setCursorVariant("default");
 
   return (
-    <div className="max-w-full max-h-full">
+    <div className=" max-h-screen xl:min-h-[80vh] md:min-h-[70vh] flex items-start justify-center flex-col w-full md:py-0 2xl:py-10 ">
       <motion.div
         className="cursor"
         variants={variants}
@@ -58,12 +58,12 @@ const Hero = () => {
       <Image
         src={PhoneBg}
         alt="HeroBg"
-        className="w-full h-[80%] block lg:hidden "
+        className="w-full block lg:hidden "
       />
       <div
         onMouseEnter={textEnter}
         onMouseLeave={textLeave}
-        className="absolute lg:top-[40%] lg:right-[30%] md:top-[40%] md:right-[25%] flex flex-col items-center top-32 right-10 "
+        className="absolute lg:top-[40%] lg:right-[30%] md:top-[40%] md:right-[25%] flex flex-col items-center top-32 right-8 "
       >
         <AnimatePresence>
           <AnimatedTextCharacter text="Catch the best deals," />
