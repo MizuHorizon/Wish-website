@@ -6,6 +6,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import AnimatedTextCharacter from "./AnimatedTextCharacter";
 import ButtonHeroHome from "./ButtonHeroHome";
+import Link from "next/link";
 
 const Hero = () => {
   const [mousePosition, setMousePosition] = useState({
@@ -55,15 +56,11 @@ const Hero = () => {
         animate={cursorVariant}
       />
       <Image src={Bg} alt="HeroBg" className="w-full h-7/12 hidden lg:block" />
-      <Image
-        src={PhoneBg}
-        alt="HeroBg"
-        className="w-full block lg:hidden "
-      />
+      <Image src={PhoneBg} alt="HeroBg" className="w-full block lg:hidden " />
       <div
         onMouseEnter={textEnter}
         onMouseLeave={textLeave}
-        className="absolute lg:top-[40%] lg:right-[30%] md:top-[40%] md:right-[25%] flex flex-col items-center top-32 right-8 "
+        className="absolute lg:top-[40%] lg:right-[30%] md:top-[25%] md:right-[20%] flex flex-col items-center top-32 right-[10%] "
       >
         <AnimatePresence>
           <AnimatedTextCharacter text="Catch the best deals," />
@@ -78,9 +75,11 @@ const Hero = () => {
         </p>
         <div className="flex flex-row w-full gap-10 mt-8">
           <ButtonHeroHome />
-          <button className="bg-transparent w-full border-[#323136] border-2 rounded-lg text-white on hover:bg-gradient-to-tr from-[#616169] to-[#B5B5B5 opacity-0] md:px-4 py-2 px-2">
-            Learn
-          </button>
+          <a href="https://github.com/MizuHorizon" className="bg-transparent w-full border-[#323136] border-2 rounded-lg text-center text-[16px] text-white on hover:bg-gradient-to-tr from-[#616169] to-[#B5B5B5 opacity-0] md:px-4 py-2 px-2" target="_blank">
+            
+              Learn
+          
+          </a>
         </div>
       </div>
     </div>
