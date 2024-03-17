@@ -18,7 +18,7 @@ const page = () => {
           all of the terms below. So, before you use the Service, please read
           all of the terms. If you don't agree to all of the terms below, please
           do not use the Service. Also, if a term does not make sense to you,
-          please let us know by e-mailing "singhsakcham29@gmail.com".
+          please let us know by emailing "singhsakcham29@gmail.com".
         </p>
       </div>
       <div className="pb-8  flex flex-col  px-24">
@@ -34,19 +34,19 @@ const page = () => {
           revising the date at the top of these Terms) or upon your acceptance
           if we provide a mechanism for your immediate acceptance of the revised
           Terms (such as a click-through confirmation or acceptance button). It
-          is your responsibility to check Wish for changes to these Terms.
+          is your responsibility to check for changes to these Terms
         </p>
       </div>
       <div className="pb-8  flex flex-col  px-24">
         <h1 className="text-[24px] font-semibold">Third-Party Services</h1>
         <p className="text-[16px] pb-8">
-          From time to time, we may provide you with links to third party
+          From time to time, we may provide you with links to third-party
           websites or services that we do not own or control. Your use of the
           Service may also include the use of applications that are developed or
-          owned by a third party. Your use of such third party applications,
+          owned by a third party. Your use of such third-party applications,
           websites, and services is governed by that party's own terms of
           service or privacy policies. We encourage you to read the terms and
-          conditions and privacy policy of any third party application, website
+          conditions and privacy policy of any third-party application, website,
           or service that you visit or use.
         </p>
       </div>
@@ -56,7 +56,7 @@ const page = () => {
           When you create an account or use another service to log in to the
           Service, you agree to maintain the security of your password and
           accept all risks of unauthorized access to any data or other
-          information you provide to the Service.If you discover or suspect any
+          information you provide to the Service. If you discover or suspect any
           Service security breaches, please let us know as soon as possible.
         </p>
       </div>
@@ -237,9 +237,10 @@ const page = () => {
         <h1 className="text-[24px] font-semibold">Feedback</h1>
         <p className="text-[16px] pb-8">
           Please let us know what you think of the Service, these Terms and, in
-          general, Wish. When you provide us with any feedback, comments
-          or suggestions about the Service, these Terms and, in general, Wish, you irrevocably assign to us all of your right, title and
-          interest in and to your feedback, comments and suggestions.
+          general, Wish. When you provide us with any feedback, comments or
+          suggestions about the Service, these Terms and, in general, Wish, you
+          irrevocably assign to us all of your right, title and interest in and
+          to your feedback, comments and suggestions.
         </p>
       </div>
     </div>
