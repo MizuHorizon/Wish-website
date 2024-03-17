@@ -22,7 +22,7 @@ const Cta = () => {
             className="block md:hidden w-full"
           />
         </div>
-        <div className="absolute top-[35%] left-[13%] lg:top-[40%] lg:left-[35%] md:top-[30%] md:left-[30%] flex flex-col justify-center items-center">
+        <div className="absolute top-[25%] left-[13%] lg:top-[40%] lg:left-[35%] md:top-[30%] md:left-[30%] flex flex-col justify-center items-center">
           <h1 className="overflow-hidden leading-normal tracking-wider flex font-bold text-3xl md:text-5xl lg:text-6xl text-transparent bg-clip-text bg-gradient-to-tr from-[#8B8B8B] to-[#191919] pb-[4px] md:pb-[12px] lg:pb-[16px]">
             Make A Wish
           </h1>
