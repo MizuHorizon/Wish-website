@@ -16,9 +16,10 @@ const page = () => {
         <p className="text-[16px] pb-8">
           If you access or use the Service, it means you agree to be bound by
           all of the terms below. So, before you use the Service, please read
-          all of the terms. If you don't agree to all of the terms below, please
-          do not use the Service. Also, if a term does not make sense to you,
-          please let us know by emailing "singhsakcham29@gmail.com".
+          all of the terms. If you don&apos;t agree to all of the terms below,
+          please do not use the Service. Also, if a term does not make sense to
+          you, please let us know by emailing
+          &quot;singhsakcham29@gmail.com&quot;.
         </p>
       </div>
       <div className="pb-8  flex flex-col  px-24">
@@ -44,7 +45,7 @@ const page = () => {
           websites or services that we do not own or control. Your use of the
           Service may also include the use of applications that are developed or
           owned by a third party. Your use of such third-party applications,
-          websites, and services is governed by that party's own terms of
+          websites, and services is governed by that party&apos;s own terms of
           service or privacy policies. We encourage you to read the terms and
           conditions and privacy policy of any third-party application, website,
           or service that you visit or use.
@@ -158,8 +159,8 @@ const page = () => {
           the Service or websites linking to the Service. When you leave the
           Service, you should be aware that these Terms and our policies no
           longer govern. If there is any content on the Service from you and
-          others, we don't review, verify or authenticate it, and it may include
-          inaccuracies or false information. We make no representations,
+          others, we don&apos;t review, verify or authenticate it, and it may
+          include inaccuracies or false information. We make no representations,
           warranties, or guarantees relating to the quality, suitability, truth,
           accuracy or completeness of any content contained in the Service. You
           acknowledge sole responsibility for and assume all risk arising from
@@ -177,20 +178,20 @@ const page = () => {
           CONTENT INCLUDED ON OR OTHERWISE MADE AVAILABLE TO YOU THROUGH THE
           SERVICE WHETHER ALLEGED TO ARISE BY OPERATION OF LAW, BY REASON OF
           CUSTOM OR USAGE IN THE TRADE, BY COURSE OF DEALING OR OTHERWISE. IN NO
-          EVENT WILL [DEVELOPER NAME] BE LIABLE TO YOU OR ANY THIRD PARTY FOR
-          ANY SPECIAL, INDIRECT, INCIDENTAL, EXEMPLARY OR CONSEQUENTIAL DAMAGES
-          OF ANY KIND ARISING OUT OF OR IN CONNECTION WITH THE SERVICE OR ANY
-          OTHER SERVICE AND/OR CONTENT INCLUDED ON OR OTHERWISE MADE AVAILABLE
-          TO YOU THROUGH THE SERVICE, REGARDLESS OF THE FORM OF ACTION, WHETHER
-          IN CONTRACT, TORT, STRICT LIABILITY OR OTHERWISE, EVEN IF WE HAVE BEEN
-          ADVISED OF THE POSSIBILITY OF SUCH DAMAGES OR ARE AWARE OF THE
-          POSSIBILITY OF SUCH DAMAGES. OUR TOTAL LIABILITY FOR ALL CAUSES OF
-          ACTION AND UNDER ALL THEORIES OF LIABILITY WILL BE LIMITED TO THE
-          AMOUNT YOU PAID TO WISH. THIS SECTION WILL BE GIVEN FULL EFFECT EVEN
-          IF ANY REMEDY SPECIFIED IN THIS AGREEMENT IS DEEMED TO HAVE FAILED OF
-          ITS ESSENTIAL PURPOSE. You agree to defend, indemnify and hold us
-          harmless from and against any and all costs, damages, liabilities, and
-          expenses (including attorneys' fees, costs, penalties, interest and
+          EVENT WILL WISH BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY SPECIAL,
+          INDIRECT, INCIDENTAL, EXEMPLARY OR CONSEQUENTIAL DAMAGES OF ANY KIND
+          ARISING OUT OF OR IN CONNECTION WITH THE SERVICE OR ANY OTHER SERVICE
+          AND/OR CONTENT INCLUDED ON OR OTHERWISE MADE AVAILABLE TO YOU THROUGH
+          THE SERVICE, REGARDLESS OF THE FORM OF ACTION, WHETHER IN CONTRACT,
+          TORT, STRICT LIABILITY OR OTHERWISE, EVEN IF WE HAVE BEEN ADVISED OF
+          THE POSSIBILITY OF SUCH DAMAGES OR ARE AWARE OF THE POSSIBILITY OF
+          SUCH DAMAGES. OUR TOTAL LIABILITY FOR ALL CAUSES OF ACTION AND UNDER
+          ALL THEORIES OF LIABILITY WILL BE LIMITED TO THE AMOUNT YOU PAID TO
+          WISH. THIS SECTION WILL BE GIVEN FULL EFFECT EVEN IF ANY REMEDY
+          SPECIFIED IN THIS AGREEMENT IS DEEMED TO HAVE FAILED OF ITS ESSENTIAL
+          PURPOSE. You agree to defend, indemnify and hold us harmless from and
+          against any and all costs, damages, liabilities, and expenses
+          (including attorneys&apos; fees, costs, penalties, interest and
           disbursements) we incur in relation to, arising from, or for the
           purpose of avoiding, any claim or demand from a third party relating
           to your use of the Service or the use of the Service by any person
@@ -203,10 +204,10 @@ const page = () => {
         <h1 className="text-[24px] font-semibold">Copyright Complaints</h1>
         <p className="text-[16px] pb-8">
           We take intellectual property rights seriously. In accordance with the
-          Digital Millennium Copyright Act ("DMCA") and other applicable law, we
-          have adopted a policy of terminating, in appropriate circumstances
-          and, at our sole discretion, access to the service for users who are
-          deemed to be repeat infringers.
+          Digital Millennium Copyright Act (&quot;DMCA&quot;) and other
+          applicable law, we have adopted a policy of terminating, in
+          appropriate circumstances and, at our sole discretion, access to the
+          service for users who are deemed to be repeat infringers.
         </p>
       </div>
       <div className="pb-8  flex flex-col  px-24">
