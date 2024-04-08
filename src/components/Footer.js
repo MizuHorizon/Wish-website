@@ -8,6 +8,9 @@ const Footer = () => {
         <Link href={"/Terms"} className="text-[#D0D5DD] font-regular hover:text-[#8E8B8B] text-[16px]" target="_blank">
           Terms & Conditions
         </Link>
+        <Link href={"/Policy"} className="text-[#D0D5DD] font-regular hover:text-[#8E8B8B] text-[16px]" target="_blank">
+          Private Policy
+        </Link>
         <a href="https://twitter.com/wiisssshh" className="text-[#D0D5DD] hover:text-[#8E8B8B] text-[16px]" target="_blank">
           Contact us
         </a>
