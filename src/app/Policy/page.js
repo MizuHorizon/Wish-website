@@ -12,7 +12,7 @@ const page = () => {
           This Privacy Policy was last updated on the date indicated above.
           Please review this Privacy Policy periodically for any changes. By
           continuing to use our App after such changes are made, you acknowledge
-          and agree to the updated Privacy Policy
+          and agree to the updated Privacy Policy
         </p>
       </div>
       <div className="pb-8  flex flex-col  px-24">
@@ -24,7 +24,7 @@ const page = () => {
         </p>
         <p className="text-[16px] pb-8">
           Log Data: We automatically collect certain information when you use
-          our App, including your device's Internet Protocol (IP) address,
+          our App, including your device&apos;s Internet Protocol (IP) address,
           device type, operating system, and App usage data.
         </p>
         <p className="text-[16px] pb-8">
@@ -82,7 +82,7 @@ const page = () => {
         </p>
       </div>
       <div className="pb-8  flex flex-col  px-24">
-        <h1 className="text-[24px] font-semibold">Children's Privacy</h1>
+        <h1 className="text-[24px] font-semibold">Children&apos;s Privacy</h1>
         <p className="text-[16px] pb-8">
           Our services are not directed to individuals under the age of 13, and
           we do not knowingly collect personal information from children. If you
